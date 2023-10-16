@@ -1,42 +1,176 @@
 .container{
   display: flex;
   justify-content: center;
-  align-items: center; 
-  height: 100vh;
+  align-items: center;
 }
 
 .base {
+  position: static;
   width: 1366px;
   height: 1701px;
-  top: -978px;
-  left: -684px;
-  background-color: rgb(58, 204, 70);
-};
+  background-color: #FFFFFF;
+}
 
 .side-menu{
+  position: absolute;
   width: 220px;
   height: 1701px;
-  background-color: rgb(11, 25, 231);
-};
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .header{
+  position: relative;
   width: 1146px;
   height: 68px;
   left: 220px;
-  background-color: aqua;
-};
+  background-color: #FDF1EB;
+}
 
 .content{
+  position: relative;
   width: 1059px;
   height: 1382px;
-  top: 88px;
-  left: 263;
+  left: 263px;
   background-color: rgb(184, 18, 170);
-};
+}
 
 .footer{
+  position: relative;
   width: 1146px;
   height: 181px;
-  top: 1520px;
   left: 220px;
   background-color: rgb(119, 114, 114);
-};
+}
+.nome-evento{
+  width: 220px;
+  height: 68px;
+  left: 20px;
+  background-image: linear-gradient( #FFB354,#EE7A3A);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 68px;
+  text-align: center;
+  color: white;
+}
+
+.logo{
+  width: 220px;
+  height: 258px;
+}
+
+.menu{
+  width: 220px;
+  height: 35px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18.75px;
+  color: #725C5C; 
+}
+.linha{
+width: 220px;
+height: 2px;
+top:33px;
+background-color:#E7E7E7 ;
+}
+.idioma{
+  width: 97px;
+  height: 34px;
+  top: 17px;
+  left: 789px;
+  border-radius: 3px;
+  border: 1px solid #CCCCCC;
+  position: absolute;
+  font-family: quicksand, sans-serif;
+  font-weight: 400;
+  size: 14px;
+  line-height: 17,5px;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.login{
+  width: 202px;
+  height: 34px;
+  top: 17px;
+  left: 908px;
+  border: 1px;
+  position: absolute;
+
+}
+.bem-vindo{
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  width: 72px;
+  height: 18px;
+  top: 17px;
+  left: 999px;
+}
+
+.email{
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
+  size: 12px;
+  line-height: 15px;
+  align-items: right;
+  width: 163px;
+  height: 15px;
+  top: 36px;
+  left: 908px;
+}
+
+.foto-perfil{
+  width: 30.3px;
+  height: 30.63px;
+  top: 18.68px;
+  left: 1077.85px;
+  border: 1px;
+  border-radius: 50%;
+}
+
+.info-header{
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #725C5C;
+  width: 391px;
+  height: 16px;
+  top: 5px;
+  left: 36px;
+  position: absolute;
+}
+
+.texto-header{
+  font-family: Roboto, sans-serif;
+  font-weight:  400;
+  font-size: 22px;
+  line-height: 25.78px;
+  color: #725C5C;
+  width: 643px;
+  height: 26px;
+  top: 23px;
+  left: 36px;
+  position: absolute;
+}
+
+.issn{
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #725C5C;
+  width: 105px;
+  height: 16px;
+  top: 48px;
+  left: 36px;
+  position: absolute;
+}

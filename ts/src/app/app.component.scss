@@ -33,17 +33,17 @@
   position: relative;
   width: 1059px;
   height: 1382px;
-  top: 88px;
+  top: 15px;
   left: 263px;
   background-color: #ffffff;
 }
 
 .footer{
-position: relative;
+  position: relative;
   width: 1146px;
   height: 181px;
-  top: 1520px;
-  left: 220px;
+  top: 623px;
+  left: 0px;
 }
 
 .nome-evento{
@@ -79,6 +79,14 @@ height: 2px;
 top:33px;
 background-color:#E7E7E7 ;
 }
+
+.trabalhos{
+  background-color: #FDF1EB;
+  width: 220px;
+  height: 33px;
+  top: 10px;
+}
+
 .idioma{
   width: 97px;
   height: 34px;
@@ -107,18 +115,20 @@ background-color:#E7E7E7 ;
 
 }
 .bem-vindo{
+  position: absolute;
   font-family: "Quicksand";
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   width: 74px;
   height: 18px;
-  top: 17px;
-  left: 999px;
+  top: 1px;
+  left: 90px;
 
 }
 
 .email{
+  position: absolute;
   font-family: 'Quicksand';
   font-weight: 400;
   font-size: 12px;
@@ -126,32 +136,39 @@ background-color:#E7E7E7 ;
   align-items: right;
   width: 163px;
   height: 15px;
-  top: 36px;
-  left: 908px;
+  top: 18px;
+
 }
 
 .foto-perfil>img{
+  position: absolute;
   width: 30.3px;
   height: 30.63px;
-  top: 18.68px;
-  left: 1077.85px;
+  top: 1px;
+  left: 169px;
   border: 1px;
   border-radius: 50%;
 }
 
+.fundo-notificacao{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #F85959;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+  left: 190px;
+}
 .notificacao{
-  // width: 12px;
-  // height: 12px;
-  // border-radius: 10px;
-  // gap: 10px;
-  // background-color: #F85959;
-  // font-family: 'Roboto';
-  // font-size: 10px;
-  // font-weight: 700;
-  // line-height: 12px;
-  // letter-spacing: -0.02em;
-  // text-align: left;
-  
+  position: absolute;
+  left: 3px;
 }
 
 .info-header{
@@ -193,9 +210,8 @@ background-color:#E7E7E7 ;
   position: absolute;
 }
 
-.titulo-trabalho{
+.titulo-trabalho>h2{
   position: absolute;
-
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 900;
@@ -205,6 +221,7 @@ background-color:#E7E7E7 ;
   color: #ED7839;
   width: 786px;
   height: 54px;
+  top: -15px;
 }
 
 .botao-download{
@@ -318,58 +335,58 @@ background-color:#E7E7E7 ;
   border: 1px solid #ECECEC;
 }
 .estilo-1{
-font-family: 'Quicksand';
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .estilo-2{
-font-family: 'Quicksand';
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .estilo-3{
-font-family: 'Quicksand';
-font-size: 14px;
-font-weight: 700;
-line-height: 17px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .estilo-4{
-font-family: 'Quicksand';
-font-size: 12px;
-font-weight: 700;
-line-height: 14px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .estilo-5{
-font-family: 'Quicksand';
-font-size: 12px;
-font-weight: 400;
-line-height: 12px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #ADA0A0;
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ADA0A0;
 }
 
 .estilo-6{
-font-family: 'Quicksand';
-font-size: 14px;
-font-weight: 400;
-line-height: 23px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .moldura-resumo{
   position: relative;
@@ -425,17 +442,22 @@ text-align: left;
   text-align: left;
 }
 
+.ver-mais{
+  color: #ED7839;
+}
+
 .moldura-discussoes{
   position: relative;
   width: 1058px;
   height: 621px;
-  top: 761px;
+  top: 571px;
   border-radius: 3px;
   border: 1px;
   border: 1px solid #ECECEC;
 }
 
 .titulo-discussoes{
+  position: relative;
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 500;
@@ -444,18 +466,288 @@ text-align: left;
   text-align: left;
   width: 1027px;
   height: 25px;
-  top: 771px;
-  left: 16px;
+  top: 10px;
+  left: 15px;
   color: #4E4E4E;
 }
 
 .discussoes{
+  position: relative;
   width: 1058px;
   height: 45px;
-  top: 761px;
   border-radius: 3px, 3px, 0px, 0px;
   border: 1px;
   background: linear-gradient(0deg, #ECECEC, #ECECEC),
   linear-gradient(0deg, #FDF1EB, #FDF1EB);
   border: 1px solid #ECECEC;
 }
+
+.titulo-compartilhe{
+  position: relative;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 422px;
+  height: 22px;
+  top: 15px;
+  left: 324.5px;
+  color: #ED7839;
+}
+.icone1{
+  position: relative;
+  width: 50.26px;
+  height: 48.94px;
+  top: 35px;
+  left: 402.5px;
+}
+
+.icone2{
+  position: relative;
+  width: 50.26px;
+  height: 48.94px;
+  top: -14px;
+  left: 504.5px;
+}
+
+.icone3{
+  position: relative;
+  width: 50.26px;
+  height: 48.94px;
+  top: -62px;
+  left: 608.5px;
+}
+
+.frase-pergunta{
+  position: relative;
+  width: 626px;
+  height: 39px;
+  top: -40px;
+  left: 216.5px;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #595959;
+}
+
+.moldura-pergunta{
+  position: relative;
+  width: 1028px;
+  height: 148px;
+  left: 15px;
+  border-radius: 4px;
+  border: 1px; 
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+
+}
+
+.linha-topico{
+  position: relative;
+  width: 1027px;
+  left: 16px;
+  border: 1px;
+  background: #E7E7E7;
+  border: 1px solid #E7E7E7;
+}
+
+.cruz {
+  position: absolute;
+  width: 3px;
+  height: 17px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1px;
+}
+
+.cruz-vertical {
+  top: 247px;
+  left: 475px;
+}
+
+.cruz-horizontal {
+  top: 247px;
+  left: 475px;
+  transform: rotate(90deg);
+}
+
+.botao-topico{
+  position: relative;
+  width: 133px;
+  height: 32px;
+  top: -16px;
+  left: 454px;
+  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+  box-shadow: 0px 2px 2px 0px #0000003D;
+  box-shadow: 0px 0px 2px 0px #0000001F;
+  border-radius: 3px
+
+}
+.criar-topico{
+  position: relative;
+  font-family: 'Quicksand';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 83px;
+  height: 16px;
+  top: 4px;
+  left: 40px;
+  color: #ffffff;
+}
+
+.titulo-pergunta{
+  position: relative;
+  font-family: 'Quicksand';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 267px;
+  height: 20px;
+  top: 13px;
+  left: 27px;
+  color: #ED7839;
+}
+.autor-pergunta{
+  position: relative;
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 542.07px;
+  height: 15px;
+  top: 15px;
+  left: 27px;
+  color: #5C5C5C;
+}
+
+.comentario-pergunta{
+  position: relative;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 980.67px;
+  height: 35px;
+  top: 25px;
+  left: 27px;
+  color: #4D4D4D;
+}
+
+.botão-informacao{
+  width: 4px;
+  height: 18px;
+  top: 1166px;
+  left: 39px;
+  
+}
+
+.ponto {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  background-color: #ED7839;
+  border-radius: 50%;
+  cursor: pointer; 
+  
+}
+
+.ponto:nth-child(2) {
+  top: 3.5px;
+}
+
+.ponto:nth-child(3) {
+  top: 7px;
+}
+
+.teste{
+  position: relative;
+  width: 165px;
+  height: 19px;
+  top: 42px;
+  left: 27px;
+
+}
+
+.favorito {
+  position: absolute;
+  width: 27px;
+  height: 19px;
+  top: 0px;
+  left: 17px;
+  box-shadow: 0px 2px 2px 0px #0000003D, 0px 0px 2px 0px #0000001F;
+  background: #ED7839;
+  border-radius: 4px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 3px;
+  left: 7px;
+  position: absolute;
+}
+
+
+
+
+.like{
+  position: absolute;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 29px;
+  height: 19px;
+  top: 0px;
+  left: 60px;
+  color: #757575;  
+}
+
+.respostas{
+  position: absolute;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 63px;
+  height: 19px;
+  top: 0px;
+  left: 103px;
+  color: #757575;
+}
+
+.moldura-pergunta2{
+  position: relative;
+  width: 1028px;
+  height: 148px;
+  left: 15px;
+  border-radius: 4px;
+  border: 1px; 
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+  top: 18px;
+  left: 15px;
+}
+

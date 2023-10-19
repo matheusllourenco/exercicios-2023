@@ -14,7 +14,7 @@
 }
 
 .side-menu{
-  position: absolute;
+  position: fixed;
   width: 220px;
   height: 1701px;
   background-color: rgb(255, 255, 255);
@@ -425,7 +425,7 @@ background-color:#E7E7E7 ;
   linear-gradient(0deg, #FDF1EB, #FDF1EB);
 }
 
-.texto-resumo{
+#texto-resumo{
   position: relative;
   width: 1028px;
   height: 114px;
@@ -442,8 +442,16 @@ background-color:#E7E7E7 ;
   text-align: left;
 }
 
-.ver-mais{
+/* Estilo para esconder o texto completo inicialmente */
+#texto-completo {
+  display: none;
+}
+
+#btn-show-more{
+  cursor: pointer;
   color: #ED7839;
+  border: none;
+  background-color: #ffffff;
 }
 
 .moldura-discussoes{

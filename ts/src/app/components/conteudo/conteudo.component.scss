@@ -1,0 +1,559 @@
+.content{
+    position: relative;
+    width: 1059px;
+    height: 1382px;
+    top: 15px;
+    left: 263px;
+    background-color: #ffffff;
+  }
+
+.titulo-trabalho>h2{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #ED7839;
+    width: 786px;
+    height: 54px;
+    top: -15px;
+  }
+  
+  .botao-download{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    left: 842px;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 4px;
+    gap: 5px;
+  }
+  
+  .botao-favorito{
+    position: absolute;
+    width: 43px;
+    height: 31px;
+    left: 967px;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 4px;
+    gap: 5px;
+  }
+  
+  .botao-doi{
+    position: absolute;
+    width: 43px;
+    height: 31px;
+    left: 1015px;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 4px;
+    gap: 5px;
+  }
+  .citacao{
+    position: absolute ;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    color: #ED7839;
+    width: 239px;
+    height: 25px;
+    top: 43px;
+    left: 820px;
+  }
+  
+  .video>img{
+    position: absolute;
+    width: 784px;
+    height: 439px;
+    top: 73px;
+    left: 2px;
+  }
+  
+  .detalhes{
+    width: 242px;
+    height: 45px;
+    top: 73px;
+    left: 816px;
+    border-radius: 3px, 3px, 0px, 0px;
+    border: 1px;
+    background: linear-gradient(0deg, #ECECEC, #ECECEC),
+    linear-gradient(0deg, #FDF1EB, #FDF1EB);
+    border: 1px solid #ECECEC
+  }
+  
+  .titulo-detalhes{
+    position: absolute;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E4E4E;
+    width: 212px;
+    height: 25px;
+    top: 10px;
+    left: 15px;
+  }
+  
+  .texto-detalhes{
+    position: absolute;
+    width: 212px;
+    height: 364px;
+    top: 55px;
+    left: 15px;
+    overflow-y:scroll;
+    
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #BFBFBF;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #E7E7E7;
+  }
+  
+  .moltura-detalhes{
+    position: absolute;
+    width: 242px;
+    height: 439px;
+    top: 73px;
+    left: 816px;
+    border-radius: 3px;
+    border: 1px;
+    border: 1px solid #ECECEC;
+  }
+  .estilo-1{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .estilo-2{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .estilo-3{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .estilo-4{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  .estilo-5{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ADA0A0;
+  }
+  
+  .estilo-6{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .moldura-resumo{
+    position: relative;
+    width: 1058px;
+    height: 189px;
+    top: 542px;
+    border-radius: 3px;
+    border: 1px;
+    border: 1px solid #ECECEC;
+  }
+  
+  .titulo-resumo{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 1028px;
+    height: 25px;
+    top: 10px;
+    left: 15px;
+    color: #4E4E4E;
+  
+  }
+  
+  .resumo{
+    width: 1058px;
+    height: 45px;
+    top: 542px;
+    border-radius: 3px, 3px, 0px, 0px;
+    border: 1px;
+    border: 1px solid #ECECEC;
+    background: linear-gradient(0deg, #ECECEC, #ECECEC),
+    linear-gradient(0deg, #FDF1EB, #FDF1EB);
+  }
+  
+  #texto-resumo{
+    position: relative;
+    width: 1028px;
+    height: 114px;
+    color: #5C5C5C;
+    width: Fixed (1,028px);
+    height: Hug (114px);
+    top: 12px;
+    left: 15px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  
+  /* Estilo para esconder o texto completo inicialmente */
+  #texto-completo {
+    display: none;
+  }
+  
+  #btn-show-more{
+    cursor: pointer;
+    color: #ED7839;
+    border: none;
+    background-color: #ffffff;
+  }
+  
+  .moldura-discussoes{
+    position: relative;
+    width: 1058px;
+    height: 621px;
+    top: 571px;
+    border-radius: 3px;
+    border: 1px;
+    border: 1px solid #ECECEC;
+  }
+  
+  .titulo-discussoes{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 1027px;
+    height: 25px;
+    top: 10px;
+    left: 15px;
+    color: #4E4E4E;
+  }
+  
+  .discussoes{
+    position: relative;
+    width: 1058px;
+    height: 45px;
+    border-radius: 3px, 3px, 0px, 0px;
+    border: 1px;
+    background: linear-gradient(0deg, #ECECEC, #ECECEC),
+    linear-gradient(0deg, #FDF1EB, #FDF1EB);
+    border: 1px solid #ECECEC;
+  }
+  
+  .titulo-compartilhe{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 422px;
+    height: 22px;
+    top: 15px;
+    left: 324.5px;
+    color: #ED7839;
+  }
+  .icone1{
+    position: relative;
+    width: 50.26px;
+    height: 48.94px;
+    top: 35px;
+    left: 402.5px;
+  }
+  
+  .icone2{
+    position: relative;
+    width: 50.26px;
+    height: 48.94px;
+    top: -14px;
+    left: 504.5px;
+  }
+  
+  .icone3{
+    position: relative;
+    width: 50.26px;
+    height: 48.94px;
+    top: -62px;
+    left: 608.5px;
+  }
+  
+  .frase-pergunta{
+    position: relative;
+    width: 626px;
+    height: 39px;
+    top: -40px;
+    left: 216.5px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #595959;
+  }
+  
+  .moldura-pergunta{
+    position: relative;
+    width: 1028px;
+    height: 148px;
+    left: 15px;
+    border-radius: 4px;
+    border: 1px; 
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px 0px #0000001F;
+  
+  }
+  
+  .linha-topico{
+    position: relative;
+    width: 1027px;
+    left: 16px;
+    border: 1px;
+    background: #E7E7E7;
+    border: 1px solid #E7E7E7;
+  }
+  
+  .cruz {
+    position: absolute;
+    width: 3px;
+    height: 17px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+  }
+  
+  .cruz-vertical {
+    top: 247px;
+    left: 475px;
+  }
+  
+  .cruz-horizontal {
+    top: 247px;
+    left: 475px;
+    transform: rotate(90deg);
+  }
+  
+  .botao-topico{
+    position: relative;
+    width: 133px;
+    height: 32px;
+    top: -16px;
+    left: 454px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 2px 2px 0px #0000003D;
+    box-shadow: 0px 0px 2px 0px #0000001F;
+    border-radius: 3px
+  
+  }
+  .criar-topico{
+    position: relative;
+    font-family: 'Quicksand';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 83px;
+    height: 16px;
+    top: 4px;
+    left: 40px;
+    color: #ffffff;
+  }
+  
+  .titulo-pergunta{
+    position: relative;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 267px;
+    height: 20px;
+    top: 13px;
+    left: 27px;
+    color: #ED7839;
+  }
+  .autor-pergunta{
+    position: relative;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 542.07px;
+    height: 15px;
+    top: 15px;
+    left: 27px;
+    color: #5C5C5C;
+  }
+  
+  .comentario-pergunta{
+    position: relative;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 980.67px;
+    height: 35px;
+    top: 25px;
+    left: 27px;
+    color: #4D4D4D;
+  }
+  
+  .botão-informacao{
+    width: 4px;
+    height: 18px;
+    top: 1166px;
+    left: 39px;
+    
+  }
+  
+  .ponto {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    background-color: #ED7839;
+    border-radius: 50%;
+    cursor: pointer; 
+    
+  }
+  
+  .ponto:nth-child(2) {
+    top: 3.5px;
+  }
+  
+  .ponto:nth-child(3) {
+    top: 7px;
+  }
+  
+  .teste{
+    position: relative;
+    width: 165px;
+    height: 19px;
+    top: 42px;
+    left: 27px;
+  
+  }
+  
+  .favorito {
+    position: absolute;
+    width: 27px;
+    height: 19px;
+    top: 0px;
+    left: 17px;
+    box-shadow: 0px 2px 2px 0px #0000003D, 0px 0px 2px 0px #0000001F;
+    background: #ED7839;
+    border-radius: 4px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 3px;
+    left: 7px;
+    position: absolute;
+  }
+  
+  
+  
+  
+  .like{
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 29px;
+    height: 19px;
+    top: 0px;
+    left: 60px;
+    color: #757575;  
+  }
+  
+  .respostas{
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 63px;
+    height: 19px;
+    top: 0px;
+    left: 103px;
+    color: #757575;
+  }
+  
+  .moldura-pergunta2{
+    position: relative;
+    width: 1028px;
+    height: 148px;
+    left: 15px;
+    border-radius: 4px;
+    border: 1px; 
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px 0px #0000001F;
+    top: 18px;
+    left: 15px;
+  }
+  
+  

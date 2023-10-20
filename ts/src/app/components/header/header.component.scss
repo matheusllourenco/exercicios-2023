@@ -1,0 +1,130 @@
+.header{
+    position: relative;
+    width: 1146px;
+    height: 68px;
+    left: 220px;
+    background-color: #FDF1EB;
+  }
+
+  .idioma{
+    width: 97px;
+    height: 34px;
+    top: 17px;
+    left: 789px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    size: 14px;
+    line-height: 17,5px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .login{
+    width: 202px;
+    height: 34px;
+    top: 17px;
+    left: 908px;
+    border: 1px;
+    position: absolute;
+  
+  }
+  .bem-vindo{
+    position: absolute;
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 74px;
+    height: 18px;
+    top: 1px;
+    left: 90px;
+  
+  }
+  
+  .email{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: right;
+    width: 163px;
+    height: 15px;
+    top: 18px;
+  
+  }
+  
+  .foto-perfil>img{
+    position: absolute;
+    width: 30.3px;
+    height: 30.63px;
+    top: 1px;
+    left: 169px;
+    border: 1px;
+    border-radius: 50%;
+  }
+  
+  .fundo-notificacao{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #F85959;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ffffff;
+    left: 190px;
+  }
+  .notificacao{
+    position: absolute;
+    left: 3px;
+  }
+  
+  .info-header{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #725C5C;
+    width: 391px;
+    height: 16px;
+    top: 5px;
+    left: 36px;
+    position: absolute;
+  }
+  
+  .texto-header{
+    font-family: 'Roboto';
+    font-weight:  400;
+    font-size: 22px;
+    line-height: 25.78px;
+    color: #725C5C;
+    width: 643px;
+    height: 26px;
+    top: 23px;
+    left: 36px;
+    position: absolute;
+  }
+  
+  .issn{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #725C5C;
+    width: 105px;
+    height: 16px;
+    top: 48px;
+    left: 36px;
+    position: absolute;
+  }

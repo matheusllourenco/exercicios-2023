@@ -1,0 +1,42 @@
+.side-menu{
+    position: fixed;
+    width: 220px;
+    height: 1701px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nome-evento{
+    width: 220px;
+    height: 68px;
+    left: 20px;
+    background-image: linear-gradient( #FFB354,#EE7A3A);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    text-align: center;
+    color: white;
+  }
+  
+  .logo{
+    width: 220px;
+    height: 258px;
+  }
+  
+  .menu{
+    width: 220px;
+    height: 35px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.75px;
+    color: #725C5C; 
+  }
+
+  .linha{
+    width: 220px;
+    height: 2px;
+    top:33px;
+    background-color:#E7E7E7 ;
+    }

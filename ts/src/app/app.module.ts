@@ -6,6 +6,8 @@ import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
 import { headerComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ConteudoComponent } from './components/conteudo/conteudo.component';
+import { discussaoComponent } from './components/conteudo/discussao/discussao.component';
+import { resumoComponent} from './components/conteudo/resumo/resumo.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { ConteudoComponent } from './components/conteudo/conteudo.component';
     headerComponent,
     FooterComponent,
     ConteudoComponent,
+    discussaoComponent,
+    resumoComponent,
   ],
   imports: [
     BrowserModule

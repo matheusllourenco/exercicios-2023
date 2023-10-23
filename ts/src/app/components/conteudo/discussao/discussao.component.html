@@ -38,10 +38,15 @@
     
     <div class="btn-topico">
       <button class="btn-create-topic" *ngIf="!mostrarFormulario && !enviadoComSucesso" (click)="toggleFormulario()">
-        <i class="fa-solid fa-plus"></i> criar tópico
+        <i class="fa-solid fa-plus"></i> 
+        <span class="material-symbols-outlined">
+          add
+        </span> criar tópico
       </button>
       <button *ngIf="enviadoComSucesso" (click)="criarOutroTopico()">
-        <i class="fa-solid fa-plus"></i> Criar Novo Tópico
+        <i class="fa-solid fa-plus"></i> <span class="material-symbols-outlined">
+          add
+        </span> Criar Novo Tópico
       </button>
       <hr>
     </div>
@@ -74,7 +79,7 @@
               <div class="titulo-card-expandido">
                 <strong >Adriano da Silva</strong>
               <div class="cargo">
-                <strong>Autor</strong>
+                <strong>Autor   <img src="assets/verificação.png" alt=""></strong>
                 <i class="fa-solid fa-check-double"></i>
               </div>
               </div>
@@ -92,7 +97,7 @@
               <div class="titulo-card-expandido">
                 <strong>Carmila Ferreira Andrade</strong>
                 <div class="cargo">
-                  <strong>Coautor</strong>
+                  <strong>Coautor   <img src="assets/verificação.png" alt=""></strong>
                   <i class="fa-solid fa-check-double"></i>
                 </div>
               </div>
@@ -105,7 +110,7 @@
               <div class="titulo-card-expandido">
                 <strong >Ana Carolina</strong>
                 <div class="cargo">
-                  <strong>Coautor</strong>
+                  <strong>Coautor   <img src="assets/verificação.png" alt=""></strong>
                   <i class="fa-solid fa-check-double"></i>
                 </div>
               </div>

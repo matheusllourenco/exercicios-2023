@@ -50,8 +50,6 @@
     position: relative;
     width: 626px;
     height: 39px;
-    top: -40px;
-    left: 216.5px;
     font-family: 'Quicksand';
     font-size: 14px;
     font-weight: 400;
@@ -60,6 +58,17 @@
     text-align: center;
     color: #595959;
     }
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-size: 22px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
 
 .btn-topico{
     margin-top: 40px;
@@ -84,6 +93,8 @@
     top: -20px; 
     left: 50%; 
     transform: translateX(-50%);
+    display: flex;
+
 }
 
 .discussoes-comentarios{
